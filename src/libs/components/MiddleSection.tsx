@@ -17,7 +17,7 @@ const MiddleSection = () => {
               <div className='w-[80%] h-[70%] flex flex-col justify-between '>
                 <h3 className='text-[20px]'>Weekly Balance</h3>
                 <h1 className='text-[36px]'>$20K</h1>
-                <h4 className='text-[14px] underline'>View entire list</h4>
+                <h4 className='text-[14px] underline cursor-pointer'>View entire list</h4>
               </div>
               <Image src="img/icons/wallet.svg" alt='' width={136} height={110} className='absolute right-3 bottom-3' />
             </div>
@@ -25,7 +25,7 @@ const MiddleSection = () => {
               <div className='w-[80%] h-[70%] flex flex-col justify-between '>
                 <h3 className='text-[20px]'>Orders In Iine</h3>
                 <h1 className='text-[36px]'>750</h1>
-                <h4 className='text-[14px] underline'>View entire list</h4>
+                <h4 className='text-[14px] underline cursor-pointer'>View entire list</h4>
               </div>
               <Image src="img/icons/wallet-phone.svg" alt='' width={136} height={110} className='absolute right-3 bottom-3' />
             </div>
@@ -33,12 +33,16 @@ const MiddleSection = () => {
               <div className='w-[80%] h-[70%] flex flex-col justify-between '>
                 <h3 className='text-[20px]'>New Clients</h3>
                 <h1 className='text-[36px]'>150</h1>
-                <h4 className='text-[14px] underline'>View entire list</h4>
+                <h4 className='text-[14px] underline cursor-pointer'>View entire list</h4>
               </div>
               <Image src="img/icons/woman.svg" alt='' width={136} height={110} className='absolute right-3 bottom-0' />
             </div>
           </div>
-          <div>sec2</div>
+          <div className='flex w-full justify-between'>
+            <div className='w-[625px] h-[296px] bg-[#161717] rounded-3xl'>Chart</div>
+            <div>calendar</div>
+
+          </div>
           <div>sec3</div>
         </div>
       </div>
